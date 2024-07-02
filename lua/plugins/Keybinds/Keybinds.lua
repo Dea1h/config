@@ -1,0 +1,8 @@
+vim.keymap.set('n','<C-T>',':tabnew<CR>')
+vim.keymap.set('n','<C-S>',':w!<CR>')
+vim.keymap.set('n','<leader>q',vim.cmd.Ex)
+vim.keymap.set('n','<C-N>',':bnext<CR>')
+vim.keymap.set('n','<C-B>',':bprevious<CR>')
+vim.keymap.set('n','<leader>fb',':Telescope file_browser<CR>')
+-- vim.keymap.set('n','<C-L>',':tabclose<CR>')
+-- vim.keymap.set('n','<C-I>',':tabNext<CR>')
